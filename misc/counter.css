@@ -1,0 +1,9 @@
+.counter                        { display:inline-block;width:70px;padding-top:30px !important; }
+.counter input                  { width:22px;padding:2px 3px;text-align:right; }
+.counter span                   { font-size:18px;font-weight:700;color:rgb(160,71,1); }
+.counter span.dec,
+.counter span.inc               { opacity:0.5; }
+.counter span.dec:hover,
+.counter span.inc:hover         { cursor:pointer; }
+.counter span.dec.active:hover,
+.counter span.inc.active:hover  { opacity:1; }
